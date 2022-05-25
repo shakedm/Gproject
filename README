@@ -2,3 +2,13 @@ managed to almost make it work. then the SQL server went haywire and don't know 
 basicilly i just used Django framework to create the code as simple as i could in python and not have too many stuff from the SQL server side.
 I feel bad leaving it like that after all the hours of work i put into it before it crashed so i just decided to send it like that.
 Sorry for the long wait.
+
+
+ENV and stuff that code needs to run:
+1) python django mysqlclient
+2) a SQL server as in the settings.py file. you can change it there i went with MYSQL config (just what i found and it looked simple at first)
+3) The grace of god
+
+things you should be able to do but i didn't got to test it caused it kept crashing: 
+-call the "matcher" function with a job to search for.
+-run the main.py and type in the title and skills for the job you want. 
