@@ -9,6 +9,6 @@ ENV and stuff that code needs to run:
 2) a SQL server as in the settings.py file. you can change it there i went with MYSQL config (just what i found and it looked simple at first)
 3) The grace of god
 
-things you should be able to do but i didn't got to test it caused it kept crashing: 
+things you should be able to do but i didn't got to test it cause it kept crashing: 
 -call the "matcher" function with a job to search for.
 -run the main.py and type in the title and skills for the job you want. 
