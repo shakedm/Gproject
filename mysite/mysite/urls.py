@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-urlpatterns = [
+from matcher.urls import urlpatterns as mathcer_urlpatterns
+
+urlpatterns = mathcer_urlpatterns + [
     path('admin/', admin.site.urls),
 ]
